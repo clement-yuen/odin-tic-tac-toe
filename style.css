@@ -1,0 +1,61 @@
+body {
+    display:grid;
+    width: 100vw;
+    height: 100vh;
+    justify-content: start;
+    align-items: center;
+    padding-left: 15rem;
+}
+
+.gameboard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+    background-color: white;
+ 
+
+    
+}
+
+.box {
+    display:grid;
+    border: 1px solid black;
+    border-left: none;
+    border-top: none;
+    justify-content: center;
+    align-items: center;
+    
+    height: 10rem;
+    width: 10rem;
+    font-size: xx-large;
+
+}
+
+.choice {
+    display: grid;
+    
+    background-color: white;
+    width: 15rem;
+    height: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+   
+}
+
+#choiceX,
+#choiceO {
+    border: 1px solid black;
+    display: grid;
+    justify-content: center; 
+    align-items: center;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-size: 100vw;
+    background-position: 300px;
+}
+
