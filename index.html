@@ -7,12 +7,34 @@
     <title>Document</title>
     <script src='script.js' defer></script>
     <link rel='stylesheet' href='style.css'>
+    
 </head>
 <body>
+    <h1 class='header'>Harambe Tic-Tac-Toe</h1>
+    <form class='difficulty'>
+        <label>1. Choose a difficulty: </label>
+        <select name='difficulty' id='difficulty'>
+            <option value='Pepega'>Pepega</option>
+            <option value='5head'>5head</option>
+        </select>
+    </form>
+    <label for='choice' class='choiceLabel'>2. Choose a fruit: </label>
     <div class='choice'>
-        <div class='subchoice' id = 'choiceX'>X</div>
-        <div class='subchoice' id = 'choiceO'>O</div>
+        <div class='subchoice' id = 'choiceX'>
+            <text>X</text>
+            <img class='fruit banana' src='banana.png'>
+            
+        </div>
+        <div class='subchoice' id = 'choiceO'>
+            <text>O</text>
+            <img class='fruit banana' src='grape.png'>
+            
+        </div>
     </div>
     <div class='gameboard'></div>
+    <button class='reset'>Reset</button>
+    <audio controls>
+        <source src='Jungle Japes - Donkey Kong 64.mp3' type='audio/mp3'>
+    </audio>
 </body>
 </html>
